@@ -71,12 +71,33 @@ kits:
         enchantments:
           sharpness: 1
           unbreaking: 1
+      - id: "diamond_axe"
+        count: 1
+        name: "Guest Axe"
+        enchantments:
+          sharpness: 1
+          unbreaking: 1
+          efficiency: 1
+      - id: "diamond_pickaxe"
+        count: 1
+        name: "Guest Pickaxe"
+        enchantments:
+          efficiency: 1
+          unbreaking: 1
+      - id: "diamond_shovel"
+        count: 1
+        name: "Guest Shovel"
+        enchantments:
+          efficiency: 1
+          unbreaking: 1
       - id: "cooked_beef"
         count: 64
       - id: "golden_apple"
         count: 32
       - id: "ender_pearl"
         count: 16
+      _ id: "obsidian"
+        count: 64
 
   vip:
     permission: "chestkitpro.vip"
