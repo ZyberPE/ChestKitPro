@@ -128,9 +128,11 @@ kits:
       - id: "cooked_beef"
         count: 128
       - id: "golden_apple"
-        count: 64
+        count: 128
       - id: "ender_pearl"
         count: 32
+      - id: "obsidian"
+        count: 128
       - id: "obsidian"
         count: 128
   Monthly:
@@ -193,13 +195,13 @@ kits:
           efficiency: 3
           unbreaking: 3
       - id: "cooked_beef"
-        count: 256
+        count: 128
       - id: "golden_apple"
         count: 128
       - id: "ender_pearl"
-        count: 64
+        count: 32
       - id: "obsidian"
-        count: 256
+        count: 128
       - id: "bedrock"
         count: 1
   Once:
@@ -262,13 +264,13 @@ kits:
           efficiency: 4
           unbreaking: 4
       - id: "cooked_beef"
-        count: 512
-      - id: "golden_apple"
-        count: 256
-      - id: "ender_pearl"
         count: 128
+      - id: "golden_apple"
+        count: 128
+      - id: "ender_pearl"
+        count: 32
       - id: "obsidian"
-        count: 512
+        count: 128
       - id: "bedrock"
         count: 2
   Chihuahua:
@@ -331,13 +333,13 @@ kits:
           efficiency: 5
           unbreaking: 5
       - id: "cooked_beef"
-        count: 512
-      - id: "golden_apple"
-        count: 256
-      - id: "ender_pearl"
         count: 128
+      - id: "golden_apple"
+        count: 128
+      - id: "ender_pearl"
+        count: 32
       - id: "obsidian"
-        count: 512
+        count: 128
       - id: "bedrock"
         count: 5
       - id: "enchanted_golden_apple"
@@ -402,13 +404,13 @@ kits:
           efficiency: 6
           unbreaking: 6
       - id: "cooked_beef"
-        count: 512
-      - id: "golden_apple"
-        count: 256
-      - id: "ender_pearl"
         count: 128
+      - id: "golden_apple"
+        count: 128
+      - id: "ender_pearl"
+        count: 32
       - id: "obsidian"
-        count: 512
+        count: 128
       - id: "bedrock"
         count: 10
       - id: "enchanted_golden_apple"
@@ -473,13 +475,13 @@ kits:
           efficiency: 7
           unbreaking: 7
       - id: "cooked_beef"
-        count: 512
-      - id: "golden_apple"
-        count: 256
-      - id: "ender_pearl"
         count: 128
+      - id: "golden_apple"
+        count: 128
+      - id: "ender_pearl"
+        count: 32
       - id: "obsidian"
-        count: 512
+        count: 128
       - id: "bedrock"
         count: 30
       - id: "enchanted_golden_apple"
