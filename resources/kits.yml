@@ -84,6 +84,7 @@ kits:
         enchantments:
           efficiency: 1
           unbreaking: 1
+          fortune: 1
       - id: "diamond_shovel"
         count: 1
         name: "Guest Shovel"
