@@ -1,40 +1,7 @@
-# Kit creation tutorial - Created November Monday 18, 2024 at 8:42 PST
-# 11/18/2024
-#---------------------------------------------------------
-#                                                        |
-# You may use "&" for the color code                     |
-# Example: "&eYellow"                                    |
-#                                                        |
-# PiggyCustomEnchantments is supported                   |
-#                                                        |
-# test:                                                  |
-#    permission: "chestkitpro.test" - Unique permission  |
-#    kit_name: "&r&1Test kit" - Chest kit display name   |
-#    kit_lore: [] - Chest kit lore                       |
-#    cooldown: 7200 - Chest kit cooldown in seconds      |
-#    armor: - Chest kit armor section                    |
-#   (Custom name, lore and enchantments are optional)    |
-#      - helmet:                                         |
-#          id: "diamond_helmet"                          |                  
-#      - chestplate:                                     |
-#          id: "diamond_chestplate"                      |
-#      - leggings:                                       |
-#          id: "diamond_leggings"                        |
-#      - boots:                                          |
-#          id: "diamond_boots"                           |
-#    items:                                              |
-#   (Custom name, lore and enchantments are optional     |
-#    but the count is mandatory)                         |
-#      - id: "diamond_sword"                             |
-#        count: 1                                        |
-#      - id: "cooked_beef"                               |
-#        count: 10                                       |
-#---------------------------------------------------------
-
 kits:
   Guest:
     permission: "chestkitpro.guest"
-    kit_name: "&r&eGuest kit"
+    kit_name: "Guest kit"
     kit_lore:
       - ""
       - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
@@ -99,60 +66,421 @@ kits:
         count: 16
       - id: "obsidian"
         count: 64
-
-  vip:
-    permission: "chestkitpro.vip"
-    kit_name: "&r&bVIP kit"
+  Weekly:
+    permission: "chestkitpro.weekly"
+    kit_name: "Weekly kit"
     kit_lore:
       - ""
       - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
-      - ""
-      - "&r&fContains:"
-      - " &r&fArmor:"
-      - "  &r&e- Diamond Helmet"
-      - "  &r&e- Diamond Chestplate"
-      - "  &r&e- Diamond Leggings"
-      - "  &r&e- Diamond Boots"
-      - ""
-      - " &r&fItems:"
-      - "  &r&e- Diamond Sword"
-      - "  &r&e- Diamond Pickaxe"
-      - "  &r&e- Diamond Shovel"
-      - "  &r&e- Diamond Axe"
-      - "  &r&e- 64x Steak"
-      - "  &r&e- 16x Golden Apple"
-      - "  &r&e- 3x Ender Pearls"
-    cooldown: 7200
+    cooldown: 604800
     armor:
       - helmet:
           id: "diamond_helmet"
-          name: "VIP Helmet"
-          lore:
-            - "&r&eVIP Helmet"
+          name: "Weekly Helmet"
+          enchantments:
+            protection: 2
+            unbreaking: 2
       - chestplate:
           id: "diamond_chestplate"
-          name: "VIP Chestplate"
+          name: "Weekly Chestplate"
+          enchantments:
+            protection: 2
+            unbreaking: 2
       - leggings:
           id: "diamond_leggings"
-          name: "VIP Leggings"
+          name: "Weekly Leggings"
+          enchantments:
+            protection: 2
+            unbreaking: 2
       - boots:
           id: "diamond_boots"
-          name: "VIP Boots"
+          name: "Weekly Boots"
+          enchantments:
+            protection: 2
+            unbreaking: 2
     items:
       - id: "diamond_sword"
         count: 1
-        name: "VIP Sword"
-        lore: 
-          - "&r&eA powerful sword for VIPs."
-      - id: "diamond_pickaxe"
-        count: 1
+        name: "Weekly Sword"
+        enchantments:
+          sharpness: 2
+          unbreaking: 2
       - id: "diamond_axe"
         count: 1
+        name: "Weekly Axe"
+        enchantments:
+          sharpness: 2
+          unbreaking: 2
+          efficiency: 2
+      - id: "diamond_pickaxe"
+        count: 1
+        name: "Weekly Pickaxe"
+        enchantments:
+          efficiency: 2
+          unbreaking: 2
+          fortune: 2
       - id: "diamond_shovel"
         count: 1
+        name: "Weekly Shovel"
+        enchantments:
+          efficiency: 2
+          unbreaking: 2
       - id: "cooked_beef"
-        count: 64
+        count: 128
       - id: "golden_apple"
-        count: 16
+        count: 64
       - id: "ender_pearl"
-        count: 3
+        count: 32
+      - id: "obsidian"
+        count: 128
+  Monthly:
+    permission: "chestkitpro.monthly"
+    kit_name: "Monthly kit"
+    kit_lore:
+      - ""
+      - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
+    cooldown: 604800
+    armor:
+      - helmet:
+          id: "diamond_helmet"
+          name: "Monthly Helmet"
+          enchantments:
+            protection: 3
+            unbreaking: 3
+      - chestplate:
+          id: "diamond_chestplate"
+          name: "Monthly Chestplate"
+          enchantments:
+            protection: 3
+            unbreaking: 3
+      - leggings:
+          id: "diamond_leggings"
+          name: "Monthly Leggings"
+          enchantments:
+            protection: 3
+            unbreaking: 3
+      - boots:
+          id: "diamond_boots"
+          name: "Monthly Boots"
+          enchantments:
+            protection: 3
+            unbreaking: 3
+    items:
+      - id: "diamond_sword"
+        count: 1
+        name: "Monthly Sword"
+        enchantments:
+          sharpness: 3
+          unbreaking: 3
+      - id: "diamond_axe"
+        count: 1
+        name: "Monthly Axe"
+        enchantments:
+          sharpness: 3
+          unbreaking: 3
+          efficiency: 3
+      - id: "diamond_pickaxe"
+        count: 1
+        name: "Monthly Pickaxe"
+        enchantments:
+          efficiency: 3
+          unbreaking: 3
+          fortune: 3
+      - id: "diamond_shovel"
+        count: 1
+        name: "Monthly Shovel"
+        enchantments:
+          efficiency: 3
+          unbreaking: 3
+      - id: "cooked_beef"
+        count: 256
+      - id: "golden_apple"
+        count: 128
+      - id: "ender_pearl"
+        count: 64
+      - id: "obsidian"
+        count: 256
+      - id: "bedrock"
+        count: 1
+  Once:
+    permission: "chestkitpro.once"
+    kit_name: "Once kit"
+    kit_lore:
+      - ""
+      - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
+    cooldown: 604800
+    armor:
+      - helmet:
+          id: "diamond_helmet"
+          name: "Once Helmet"
+          enchantments:
+            protection: 4
+            unbreaking: 4
+      - chestplate:
+          id: "diamond_chestplate"
+          name: "Once Chestplate"
+          enchantments:
+            protection: 4
+            unbreaking: 4
+      - leggings:
+          id: "diamond_leggings"
+          name: "Once Leggings"
+          enchantments:
+            protection: 4
+            unbreaking: 4
+      - boots:
+          id: "diamond_boots"
+          name: "Once Boots"
+          enchantments:
+            protection: 4
+            unbreaking: 4
+    items:
+      - id: "diamond_sword"
+        count: 1
+        name: "Once Sword"
+        enchantments:
+          sharpness: 4
+          unbreaking: 4
+      - id: "diamond_axe"
+        count: 1
+        name: "Once Axe"
+        enchantments:
+          sharpness: 4
+          unbreaking: 4
+          efficiency: 4
+      - id: "diamond_pickaxe"
+        count: 1
+        name: "Once Pickaxe"
+        enchantments:
+          efficiency: 4
+          unbreaking: 4
+          fortune: 4
+      - id: "diamond_shovel"
+        count: 1
+        name: "Once Shovel"
+        enchantments:
+          efficiency: 4
+          unbreaking: 4
+      - id: "cooked_beef"
+        count: 512
+      - id: "golden_apple"
+        count: 256
+      - id: "ender_pearl"
+        count: 128
+      - id: "obsidian"
+        count: 512
+      - id: "bedrock"
+        count: 2
+  Chihuahua:
+    permission: "chestkitpro.chihuahua"
+    kit_name: "Chihuahua kit"
+    kit_lore:
+      - ""
+      - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
+    cooldown: 604800
+    armor:
+      - helmet:
+          id: "diamond_helmet"
+          name: "Chihuahua Helmet"
+          enchantments:
+            protection: 5
+            unbreaking: 5
+      - chestplate:
+          id: "diamond_chestplate"
+          name: "Chihuahua Chestplate"
+          enchantments:
+            protection: 5
+            unbreaking: 5
+      - leggings:
+          id: "diamond_leggings"
+          name: "Chihuahua Leggings"
+          enchantments:
+            protection: 5
+            unbreaking: 5
+      - boots:
+          id: "diamond_boots"
+          name: "Chihuahua Boots"
+          enchantments:
+            protection: 5
+            unbreaking: 5
+    items:
+      - id: "diamond_sword"
+        count: 1
+        name: "Chihuahua Sword"
+        enchantments:
+          sharpness: 5
+          unbreaking: 5
+      - id: "diamond_axe"
+        count: 1
+        name: "Chihuahua Axe"
+        enchantments:
+          sharpness: 5
+          unbreaking: 5
+          efficiency: 5
+      - id: "diamond_pickaxe"
+        count: 1
+        name: "Chihuahua Pickaxe"
+        enchantments:
+          efficiency: 5
+          unbreaking: 5
+          fortune: 5
+      - id: "diamond_shovel"
+        count: 1
+        name: "Chihuahua Shovel"
+        enchantments:
+          efficiency: 5
+          unbreaking: 5
+      - id: "cooked_beef"
+        count: 512
+      - id: "golden_apple"
+        count: 256
+      - id: "ender_pearl"
+        count: 128
+      - id: "obsidian"
+        count: 512
+      - id: "bedrock"
+        count: 5
+      - id: "enchanted_golden_apple"
+        count: 5
+  Beagle:
+    permission: "chestkitpro.beagle"
+    kit_name: "Beagle kit"
+    kit_lore:
+      - ""
+      - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
+    cooldown: 604800
+    armor:
+      - helmet:
+          id: "diamond_helmet"
+          name: "Beagle Helmet"
+          enchantments:
+            protection: 6
+            unbreaking: 6
+      - chestplate:
+          id: "diamond_chestplate"
+          name: "Beagle Chestplate"
+          enchantments:
+            protection: 6
+            unbreaking: 6
+      - leggings:
+          id: "diamond_leggings"
+          name: "Beagle Leggings"
+          enchantments:
+            protection: 6
+            unbreaking: 6
+      - boots:
+          id: "diamond_boots"
+          name: "Beagle Boots"
+          enchantments:
+            protection: 6
+            unbreaking: 6
+    items:
+      - id: "diamond_sword"
+        count: 1
+        name: "Beagle Sword"
+        enchantments:
+          sharpness: 6
+          unbreaking: 6
+      - id: "diamond_axe"
+        count: 1
+        name: "Beagle Axe"
+        enchantments:
+          sharpness: 6
+          unbreaking: 6
+          efficiency: 6
+      - id: "diamond_pickaxe"
+        count: 1
+        name: "Beagle Pickaxe"
+        enchantments:
+          efficiency: 6
+          unbreaking: 6
+          fortune: 6
+      - id: "diamond_shovel"
+        count: 1
+        name: "Beagle Shovel"
+        enchantments:
+          efficiency: 6
+          unbreaking: 6
+      - id: "cooked_beef"
+        count: 512
+      - id: "golden_apple"
+        count: 256
+      - id: "ender_pearl"
+        count: 128
+      - id: "obsidian"
+        count: 512
+      - id: "bedrock"
+        count: 10
+      - id: "enchanted_golden_apple"
+        count: 10
+  PitBull:
+    permission: "chestkitpro.pitbull"
+    kit_name: "PitBull kit"
+    kit_lore:
+      - ""
+      - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
+    cooldown: 604800
+    armor:
+      - helmet:
+          id: "diamond_helmet"
+          name: "PitBull Helmet"
+          enchantments:
+            protection: 7
+            unbreaking: 7
+      - chestplate:
+          id: "diamond_chestplate"
+          name: "PitBull Chestplate"
+          enchantments:
+            protection: 7
+            unbreaking: 7
+      - leggings:
+          id: "diamond_leggings"
+          name: "PitBull Leggings"
+          enchantments:
+            protection: 7
+            unbreaking: 7
+      - boots:
+          id: "diamond_boots"
+          name: "PitBull Boots"
+          enchantments:
+            protection: 7
+            unbreaking: 7
+    items:
+      - id: "diamond_sword"
+        count: 1
+        name: "PitBull Sword"
+        enchantments:
+          sharpness: 7
+          unbreaking: 7
+      - id: "diamond_axe"
+        count: 1
+        name: "PitBull Axe"
+        enchantments:
+          sharpness: 7
+          unbreaking: 7
+          efficiency: 7
+      - id: "diamond_pickaxe"
+        count: 1
+        name: "PitBull Pickaxe"
+        enchantments:
+          efficiency: 7
+          unbreaking: 7
+          fortune: 7
+      - id: "diamond_shovel"
+        count: 1
+        name: "PitBull Shovel"
+        enchantments:
+          efficiency: 7
+          unbreaking: 7
+      - id: "cooked_beef"
+        count: 512
+      - id: "golden_apple"
+        count: 256
+      - id: "ender_pearl"
+        count: 128
+      - id: "obsidian"
+        count: 512
+      - id: "bedrock"
+        count: 30
+      - id: "enchanted_golden_apple"
+        count: 30
