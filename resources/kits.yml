@@ -97,6 +97,8 @@ kits:
         count: 32
       - id: "ender_pearl"
         count: 16
+      - id: "obsidian"
+        count: 64
 
   vip:
     permission: "chestkitpro.vip"
