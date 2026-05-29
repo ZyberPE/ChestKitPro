@@ -141,7 +141,7 @@ kits:
     kit_lore:
       - ""
       - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
-    cooldown: 604800
+    cooldown: 2629746
     armor:
       - helmet:
           id: "diamond_helmet"
@@ -210,7 +210,7 @@ kits:
     kit_lore:
       - ""
       - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
-    cooldown: 604800
+    cooldown: 157784760
     armor:
       - helmet:
           id: "diamond_helmet"
@@ -279,7 +279,7 @@ kits:
     kit_lore:
       - ""
       - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
-    cooldown: 604800
+    cooldown: 3600
     armor:
       - helmet:
           id: "diamond_helmet"
@@ -350,7 +350,7 @@ kits:
     kit_lore:
       - ""
       - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
-    cooldown: 604800
+    cooldown: 7200
     armor:
       - helmet:
           id: "diamond_helmet"
@@ -421,7 +421,7 @@ kits:
     kit_lore:
       - ""
       - "&r&l&f(&e!&f)&r&f Interact to claim the kit!"
-    cooldown: 604800
+    cooldown: 10800
     armor:
       - helmet:
           id: "diamond_helmet"
